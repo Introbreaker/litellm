@@ -9,7 +9,7 @@ Included is a docker-compose file that spins up a PostresDB and LiteLLM. The con
 To get up and running, create a **.env** file example below:
 
 ```env
-OLLAMA_API_BASE=https://localhost:11434
+OLLAMA_API_BASE=http://localhost:11434
 OLLAMA_API_KEY=OLLAMA
 ```
 
