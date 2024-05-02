@@ -1,0 +1,8 @@
+model_list:
+  - model_name: llama-8b
+    litellm_params:
+      model: ollama/llama3:8b
+      api_base: os.environ/OLLAMA_API_BASE
+      api_key: os.environ/OLLAMA_API_KEY
+      input_cost_per_token: 0.000421 # Examples for cost tracking
+      output_cost_per_token: 0.000520 # Examples for cost tracking
