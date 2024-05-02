@@ -4,6 +4,7 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
+    "startCommand": "--config /app/config.yaml --port 4000 --num_workers 8",
     "numReplicas": 1,
     "healthcheckPath": "/",
     "healthcheckTimeout": 30,
